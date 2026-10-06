@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.db
+backend/autoflow.db
+
+# C++ binaries & builds
+logic_validator
+logic_analyst/logic_validator
+logic_analyst/build/
+**/logic_validator
+
+# Environment / Secret keys
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
